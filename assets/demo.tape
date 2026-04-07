@@ -68,9 +68,9 @@ Set Height 1500
 Set TypingSpeed 75ms
 
 # Launch vix
-# (vix-daemon should already be running)
+# (vixd should already be running)
 Sleep 500ms
-Type "../bin/vix" 
+Type "vix" 
 Sleep 1000ms  
 Enter
 Sleep 4000ms 
@@ -116,7 +116,10 @@ Sleep 1s
 Ctrl+U
 Type "Now write a file tmp.go" just to show off your capabilities
 Enter
-Sleep 20000ms
+Sleep 10000ms
+# Validate authorization to write
+Enter
+Sleep 7000ms
 
 # Show plan mode
 Shift+Tab
@@ -125,4 +128,3 @@ Type "Come up with a random plan for improving the file tmp.go"
 Sleep 1000ms
 Enter
 Sleep 20000ms
-

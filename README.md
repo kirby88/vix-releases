@@ -75,7 +75,7 @@ brew install vix
 Start the daemon:
 
 ```
-vix-daemon
+vixd
 ```
 
 and then you can start as many instances you want, each of them are isolated:
