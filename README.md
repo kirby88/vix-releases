@@ -5,7 +5,7 @@
 Sleek, Fast and Token Efficient AI Coding Agent
 
 [![GitHub Release](https://img.shields.io/github/v/release/kirby88/vix-releases?color=green)](https://github.com/kirby88/vix-releases/releases)
-[vix website][https://getvix.dev]
+[vix website](https://getvix.dev)
 </div>
 
 <div align="center">
